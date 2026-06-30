@@ -8,6 +8,6 @@ class Solution:
 
         for _ in range(iterations):
             gradient = 2 * x
-            x-= learning_rate * gradient
+            x = x - learning_rate * gradient
 
         return round(x, 5)
